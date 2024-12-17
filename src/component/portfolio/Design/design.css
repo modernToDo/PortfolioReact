@@ -1,0 +1,71 @@
+
+.design {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 5rem;
+  margin: 4rem 0;
+  border-bottom: 2px dotted gray;
+  padding-bottom: 2rem;
+
+}
+.designProject {
+  justify-self: center;
+    position: relative;
+}
+.designProject img {
+  width: 400px;
+  height: 400px;
+}
+.designProjectPath{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%; 
+   height: 100%;
+   background-color: yellow;
+   opacity: 0.85;
+   color: black;
+   font-size: 40px;
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+ .links{
+  width: 20%;
+  padding: 7px 15px;
+  border-radius: 4px;
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background-color:rgb(255, 0, 136) ;
+}
+@media screen and (max-width:1300px){
+.designProject img {
+  width: 350px;
+  height: 350px;
+}
+}
+@media screen and (max-width:1080px){
+  .design{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .designProject img {
+  width: 400px;
+  height: 400px;
+}
+}
+@media screen and (max-width:860px){
+  .designProject img {
+  width: 320px;
+  height: 320px;
+}
+}
+@media screen and (max-width:680px){
+ .design{
+    grid-template-columns: 1fr;
+  }
+}

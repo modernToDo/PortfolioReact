@@ -1,0 +1,84 @@
+.resume {
+  margin: 3rem 2rem 0;
+}
+.resume .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px dotted gray;
+}
+.heading h2 {
+  font-size: 29px;
+}
+.working-exp {
+  display: flex;
+  gap: 20px;
+  border-bottom: 2px dotted gray;
+  padding-bottom: 3rem;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  row-gap: 40px;
+  font-size: 18px;
+  padding-left: 80px;
+}
+.experience h4 {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+.work {
+  border: 1px solid gray;
+  padding-left: 20px;
+}
+.icons {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 4px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -16px 0;
+}
+.par {
+  width: 3px;
+  height: 115px;
+  background-color: yellow;
+}
+.para {
+  width: 3px;
+  height: 40px;
+  background-color: yellow;
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
+.left {
+  left: 55px;
+  top: 42%;
+}
+.right {
+  left: 52%;
+  top: 42%;
+}
+
+@media screen and (max-width: 660px) {
+  .working-exp {
+    flex-direction: column;
+  }
+  .left {
+  left: 45px;
+  top: 25%;
+}
+.right {
+  left: 45px;
+  top: 65%;
+}
+}

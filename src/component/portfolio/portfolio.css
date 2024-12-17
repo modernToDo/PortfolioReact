@@ -1,0 +1,30 @@
+.portfolio {
+  margin: 3rem 2rem 0;
+}
+.portfolio .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px dotted gray;
+}
+.heading h2 {
+  font-size: 29px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  font-size: 18px;
+  width: 315px;
+align-items: center;
+  border-radius: 23px;
+  border: 2px dotted gray;
+}
+
+
+@media screen and (max-width:680px){
+  .nav{
+     margin:2rem auto;
+  }
+}
